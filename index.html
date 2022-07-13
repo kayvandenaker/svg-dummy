@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>SVG Mockup</title>
+</head>
+<body>
+
+    <!-- <img src="mkr1010.svg" alt="" class="svg"> -->
+    <h1 id="title">MKR 1010</h1>
+    <p id="content">click a pin!</p>
+
+    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        
+        <!-- each pin has own id, it generates the content by taking all the child classes and looking up their info. Click on D7 to get info about the group --> 
+        <g id="pin-6">
+            <text                   x="0" y="15">D6</text>
+            <rect class="green"     x="30" y="0"/>
+            <rect class="blue"      x="85" y="0"/>
+            <rect class="red"       x="140" y="0"/>
+        </g>
+
+        <g id="pin-7">
+            <text                   x="0" y="45">D7</text>
+            <rect class="green"     x="30" y="30"/>
+            <rect class="blue"      x="85" y="30"/>
+            <rect class="purple"    x="140" y="30"/>
+        </g>
+
+    </svg>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

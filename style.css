@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+svg{
+    width: 500px;
+    display: block;
+    margin: 96px auto;
+}
+
+svg rect{
+    rx: 5px;
+    width: 50px;
+    height: 20px; 
+}
+
+.green{
+    fill: green;
+}
+.blue{
+    fill: blue;
+}
+.red{
+    fill: red;
+}
+.purple{
+    fill: purple;
+}
+
+text{
+    fill: black;
+}
